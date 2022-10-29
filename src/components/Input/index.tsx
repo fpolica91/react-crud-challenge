@@ -13,6 +13,7 @@ import { Container } from './styles';
 
 interface IInputProps extends InputHTMLAttributes<HTMLInputElement> {
   name: string;
+  // eslint-disable-next-line react/require-default-props
   icon?: React.ComponentType<IconBaseProps>;
 }
 
